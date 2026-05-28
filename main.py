@@ -18,8 +18,6 @@ if "cleaned_dfs" not in st.session_state:
 
 
 
-#python -m streamlit run main.py
-
 if "show_chart" not in st.session_state:
     st.session_state.show_chart=False
 
@@ -231,7 +229,7 @@ st.divider()
 df = pd.DataFrame()
 
 
-st.sidebar.title("📂 Analysis Panel")
+st.sidebar.title(" Analysis Panel")
 uploaded_file = st.sidebar.file_uploader("Choose a CSV or PDF file", type=['csv','pdf'])
 
 if uploaded_file is not None:
@@ -254,7 +252,7 @@ if st.sidebar.button("🔍 About Dataset"):
         st.subheader("ℹ️ DataFrame Information")
         st.text(info)
 
-        st.subheader("❌ Missing Values")
+        st.subheader(" Missing Values")
         st.dataframe(missing_values)
 
         st.subheader("Missing Percentage (%)")
@@ -563,7 +561,7 @@ if  st.session_state.show_fe  and not df.empty:
                     
                     
                 st.session_state.cleaned_dfs=vis
-                st.success("✅Feature engineered successfully")  
+                st.success("Feature engineered successfully")  
             
                 
                 
@@ -617,7 +615,7 @@ if st.sidebar.checkbox("Add column"):
                 new_col_name
             )
 
-            # store ONLY here
+           
             st.session_state.derived_df = derived_df
 
             st.success(f"✅ Column `{new_col_name}` added successfully")
