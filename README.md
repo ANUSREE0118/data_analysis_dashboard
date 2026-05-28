@@ -18,7 +18,7 @@ A Streamlit-based interactive dashboard for end-to-end data analysis — upload 
 -Instant dataset overview including:
 
 ###Random 6-row sample
--Total row count
+- Total row count
 -DataFrame info (dtypes, non-null counts)
 -Missing values count and percentage per column
 -Outlier count per numeric column (IQR method)
