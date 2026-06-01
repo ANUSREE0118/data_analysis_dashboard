@@ -58,3 +58,6 @@ A Streamlit-based interactive dashboard for end-to-end data analysis — upload 
 - Result downloadable as CSV
 
 <img width="1469" height="789" alt="Screenshot 2026-05-28 111559" src="https://github.com/user-attachments/assets/d7c63fc7-535a-414e-8722-6dee1df618b9" />
+
+<img width="1916" height="1019" alt="image" src="https://github.com/user-attachments/assets/470a0871-5dd5-4300-9aea-8f03c4346364" />
+
